@@ -1,0 +1,960 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d55d090c78b6240aa6dccd6042a022, type: 3}
+  m_Name: New Story
+  m_EditorClassIdentifier: 
+  links:
+  - guid: adbae278-3dfe-4380-a0fa-75db70932ca2
+    targetGuid: 663f9f6d-8852-401e-98c6-7cda3127168a
+    portId: 0
+  - guid: 5275fe57-68d3-468a-86b2-ba7454f56516
+    targetGuid: f6a1705d-71cf-4661-9c85-b31db387a8e0
+    portId: 1
+  - guid: 663f9f6d-8852-401e-98c6-7cda3127168a
+    targetGuid: 5e57104c-bcc0-4aff-bf0a-4bc1977c4e52
+    portId: 2
+  - guid: 663f9f6d-8852-401e-98c6-7cda3127168a
+    targetGuid: da9b3966-16ce-402f-80e1-3eb336efee24
+    portId: 3
+  - guid: 2cd6ba9f-e838-4218-98ab-3ceb8acedd0f
+    targetGuid: 5d236475-ee07-454c-bbd4-4994312ca125
+    portId: 4
+  - guid: 2cd6ba9f-e838-4218-98ab-3ceb8acedd0f
+    targetGuid: 5d236475-ee07-454c-bbd4-4994312ca125
+    portId: 5
+  - guid: 286de6ab-db49-4e28-8891-45b594aa0a25
+    targetGuid: 498dfebe-aaf8-417d-855b-a39973af4e58
+    portId: 6
+  - guid: f6a1705d-71cf-4661-9c85-b31db387a8e0
+    targetGuid: 80cf18d2-a4b6-4cb7-a49f-eaec51a0ae1e
+    portId: 7
+  - guid: 80cf18d2-a4b6-4cb7-a49f-eaec51a0ae1e
+    targetGuid: 2cd6ba9f-e838-4218-98ab-3ceb8acedd0f
+    portId: 8
+  - guid: 5d236475-ee07-454c-bbd4-4994312ca125
+    targetGuid: 538d4c12-45b5-41ed-8498-dd3c7f8db9d5
+    portId: 9
+  - guid: 8c0566a8-4fbe-48c3-aee2-2c9748bfb43b
+    targetGuid: be61ff0b-4717-4383-811d-51c7f8f24cb2
+    portId: 10
+  - guid: be61ff0b-4717-4383-811d-51c7f8f24cb2
+    targetGuid: 4895e1af-34fb-4385-9722-9f7524d7e089
+    portId: 11
+  - guid: 90b5c4e7-cdf9-43ed-aff9-20134a6653aa
+    targetGuid: 8ef494cf-4630-4b60-a923-0bb4b471fff9
+    portId: 12
+  - guid: 8ef494cf-4630-4b60-a923-0bb4b471fff9
+    targetGuid: 8c0566a8-4fbe-48c3-aee2-2c9748bfb43b
+    portId: 13
+  - guid: 538d4c12-45b5-41ed-8498-dd3c7f8db9d5
+    targetGuid: 90b5c4e7-cdf9-43ed-aff9-20134a6653aa
+    portId: 14
+  - guid: d5c5a390-a279-4f69-92d1-9a38985b31e5
+    targetGuid: 286de6ab-db49-4e28-8891-45b594aa0a25
+    portId: 15
+  - guid: 4895e1af-34fb-4385-9722-9f7524d7e089
+    targetGuid: d5c5a390-a279-4f69-92d1-9a38985b31e5
+    portId: 16
+  - guid: 498dfebe-aaf8-417d-855b-a39973af4e58
+    targetGuid: 386c823c-65b8-45ae-a25e-53732521ee53
+    portId: 17
+  - guid: 386c823c-65b8-45ae-a25e-53732521ee53
+    targetGuid: 352cc939-6aac-4dd2-b106-3e5d99d2792f
+    portId: 18
+  - guid: 352cc939-6aac-4dd2-b106-3e5d99d2792f
+    targetGuid: adbae278-3dfe-4380-a0fa-75db70932ca2
+    portId: 19
+  - guid: 5e57104c-bcc0-4aff-bf0a-4bc1977c4e52
+    targetGuid: ffcdd3ea-644f-4857-a3a7-260bca6af443
+    portId: 20
+  - guid: 7bd94664-1cf4-4eeb-89d3-99fc1a855be6
+    targetGuid: 159f42a6-0b91-4c05-8483-2c11b85019c4
+    portId: 21
+  - guid: 159f42a6-0b91-4c05-8483-2c11b85019c4
+    targetGuid: ce22d0d6-136c-4bff-9e9e-5f95e6f0e08b
+    portId: 22
+  - guid: 56ec5f19-a2e5-41d1-ad9d-6b50f49a24a2
+    targetGuid: 7bd94664-1cf4-4eeb-89d3-99fc1a855be6
+    portId: 23
+  - guid: 7d95e455-5428-4716-b6b4-57c8b65b5e78
+    targetGuid: 56ec5f19-a2e5-41d1-ad9d-6b50f49a24a2
+    portId: 24
+  - guid: 78187ead-2587-49f3-bc0e-963804d3903a
+    targetGuid: 7d95e455-5428-4716-b6b4-57c8b65b5e78
+    portId: 25
+  - guid: 96c84f8d-96fc-47c8-b047-b59ca782e2e2
+    targetGuid: 78187ead-2587-49f3-bc0e-963804d3903a
+    portId: 26
+  - guid: da9b3966-16ce-402f-80e1-3eb336efee24
+    targetGuid: 8c080a4b-d191-42f1-bf91-bf142ad35d38
+    portId: 27
+  - guid: 8c080a4b-d191-42f1-bf91-bf142ad35d38
+    targetGuid: 96c84f8d-96fc-47c8-b047-b59ca782e2e2
+    portId: 28
+  - guid: ffcdd3ea-644f-4857-a3a7-260bca6af443
+    targetGuid: 56ec5f19-a2e5-41d1-ad9d-6b50f49a24a2
+    portId: 29
+  - guid: ce22d0d6-136c-4bff-9e9e-5f95e6f0e08b
+    targetGuid: 25eb095e-032a-4f8f-8911-f1a05100fe5c
+    portId: 30
+  - guid: 25eb095e-032a-4f8f-8911-f1a05100fe5c
+    targetGuid: e01362a5-2dcf-4fe7-a18a-35efd5aada25
+    portId: 31
+  - guid: e01362a5-2dcf-4fe7-a18a-35efd5aada25
+    targetGuid: 8d7a6fd9-8fb4-45fe-bd7a-00288cd8319a
+    portId: 32
+  - guid: e01362a5-2dcf-4fe7-a18a-35efd5aada25
+    targetGuid: 6c2178fe-3017-421d-a995-b39f48dd2b85
+    portId: 33
+  - guid: 8d7a6fd9-8fb4-45fe-bd7a-00288cd8319a
+    targetGuid: 0b47709a-387b-4458-8098-db15e2ba2a9c
+    portId: 34
+  - guid: 0b47709a-387b-4458-8098-db15e2ba2a9c
+    targetGuid: 8f96c3aa-1f24-4e6a-afaa-c5d53222d4aa
+    portId: 35
+  - guid: ee91d97c-c64b-42c8-96dc-069326de5ed7
+    targetGuid: 8f96c3aa-1f24-4e6a-afaa-c5d53222d4aa
+    portId: 36
+  - guid: 8f96c3aa-1f24-4e6a-afaa-c5d53222d4aa
+    targetGuid: eb190c14-eee6-4118-b91f-f13130e2e83e
+    portId: 37
+  - guid: eb190c14-eee6-4118-b91f-f13130e2e83e
+    targetGuid: 8f18dcc0-ea8e-482f-ba51-abd957a4521b
+    portId: 38
+  - guid: 8f18dcc0-ea8e-482f-ba51-abd957a4521b
+    targetGuid: d826831d-708b-490b-a821-3a748b7c0bef
+    portId: 39
+  - guid: c53eaab1-195e-4c8e-b985-c85b9d6ad02a
+    targetGuid: ee91d97c-c64b-42c8-96dc-069326de5ed7
+    portId: 40
+  - guid: d826831d-708b-490b-a821-3a748b7c0bef
+    targetGuid: c4065816-5242-4107-a7fb-2bdfaa653032
+    portId: 41
+  - guid: 6c2178fe-3017-421d-a995-b39f48dd2b85
+    targetGuid: c53eaab1-195e-4c8e-b985-c85b9d6ad02a
+    portId: 42
+  nodes:
+  - guid: adbae278-3dfe-4380-a0fa-75db70932ca2
+    characterSpr: {fileID: 21300000, guid: 229b8c25fe296074e961d227a0e4a28d, type: 3}
+    characterName: "\u0410\u0440-\u0421\u0430\u0434\u043E"
+    dialogueText: "*\u043F\u043E\u043C\u043E\u0433\u0430\u0435\u0442 \u0432\u0441\u0442\u0430\u0442\u044C*"
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 1041
+      y: -57
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 053c6f706e2d3a04fbf375bffc7a287a, type: 3}
+  - guid: c4065816-5242-4107-a7fb-2bdfaa653032
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 21300000, guid: 7e4cd13cdef7bf2469d31b14b7d7c0ef, type: 3}
+    startNode: 0
+    endNode: 1
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11837
+      y: -3
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 5275fe57-68d3-468a-86b2-ba7454f56516
+    characterSpr: {fileID: 21300000, guid: b2270a70b34a40742b9cc94c2cd0fdcd, type: 3}
+    characterName: 
+    dialogueText: 
+    backgroundSpr: {fileID: 21300000, guid: 2ea7b5cf1862dea42b241699907add7b, type: 3}
+    startNode: 1
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -4741
+      y: -78
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: a51e73e0916076e43a8a4a7541a05837, type: 3}
+  - guid: 663f9f6d-8852-401e-98c6-7cda3127168a
+    characterSpr: {fileID: 21300000, guid: b2270a70b34a40742b9cc94c2cd0fdcd, type: 3}
+    characterName: player
+    dialogueText: 
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - "\u041E, \u0440\u0430\u0434 \u0442\u0435\u0431\u044F \u0432\u0438\u0434\u0435\u0442\u044C"
+    - "\u0412\u043F\u043E\u043B\u043D\u0435 \u043E\u0436\u0438\u0434\u0430\u0435\u043C\u043E"
+    nodePosition:
+      serializedVersion: 2
+      x: 1932
+      y: -89
+      width: 499
+      height: 367
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 8300000, guid: 053c6f706e2d3a04fbf375bffc7a287a, type: 3}
+  - guid: 2cd6ba9f-e838-4218-98ab-3ceb8acedd0f
+    characterSpr: {fileID: 21300000, guid: f6dee68546db39a4ba8dc3ebfc50b9b9, type: 3}
+    characterName: player
+    dialogueText: 
+    backgroundSpr: {fileID: 21300000, guid: 2ea7b5cf1862dea42b241699907add7b, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - "\u042D\u0442\u0438 \u0433\u043E\u043B\u0443\u0431\u0438 \u0443\u0436\u0435
+      \u0432\u0435\u0437\u0434\u0435..."
+    - "\u0425\u0430, \u043D\u0435 \u043D\u0430\u043F\u0443\u0433\u0430\u043B..."
+    nodePosition:
+      serializedVersion: 2
+      x: -3657
+      y: -267
+      width: 499
+      height: 367
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 286de6ab-db49-4e28-8891-45b594aa0a25
+    characterSpr: {fileID: 21300000, guid: bdb8afd6c74ec5f409ec8f3603d58977, type: 3}
+    characterName: ???
+    dialogueText: "\u0410\u0425\u0410\u0425\u0410\u0425\u0410\u0425"
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -227
+      y: 140
+      width: 499
+      height: 305
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: f6a1705d-71cf-4661-9c85-b31db387a8e0
+    characterSpr: {fileID: 21300000, guid: b2270a70b34a40742b9cc94c2cd0fdcd, type: 3}
+    characterName: player
+    dialogueText: "\u0414\u0443\u0435\u0442 \u0432\u0435\u0442\u0435\u0440 \u0441
+      \u044E\u0433\u0430, \u0438 \u043B\u0443\u043D\u0430 \u0432\u0437\u043E\u0448\u043B\u0430
+      \u0447\u0442\u043E \u0436\u0435 \u0442\u044B\u2026 "
+    backgroundSpr: {fileID: 21300000, guid: 2ea7b5cf1862dea42b241699907add7b, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -4211
+      y: -391
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 46ba280ca9f9d6940b8feb7ef5417e7f, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 80cf18d2-a4b6-4cb7-a49f-eaec51a0ae1e
+    characterSpr: {fileID: 21300000, guid: f6dee68546db39a4ba8dc3ebfc50b9b9, type: 3}
+    characterName: 
+    dialogueText: "*\u0440\u0435\u0437\u043A\u043E \u043F\u0440\u043E\u043B\u0435\u0442\u0430\u0435\u0442
+      \u0433\u043E\u043B\u0443\u0431\u044C*"
+    backgroundSpr: {fileID: 21300000, guid: 2ea7b5cf1862dea42b241699907add7b, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -4206
+      y: -47
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 68377fb5d06c692498ecc7055fa2e179, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 5d236475-ee07-454c-bbd4-4994312ca125
+    characterSpr: {fileID: 21300000, guid: b2270a70b34a40742b9cc94c2cd0fdcd, type: 3}
+    characterName: player
+    dialogueText: "\u041E\u0445 \u0443\u0436 \u044D\u0442\u0438 \u043F\u0435\u0440\u043D\u0430\u0442\u044B\u0435... "
+    backgroundSpr: {fileID: 21300000, guid: 2ea7b5cf1862dea42b241699907add7b, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -2889
+      y: -230
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 3fff7e33d0873ac4ebc5e743df49b226, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 8c0566a8-4fbe-48c3-aee2-2c9748bfb43b
+    characterSpr: {fileID: 21300000, guid: b2270a70b34a40742b9cc94c2cd0fdcd, type: 3}
+    characterName: player
+    dialogueText: "\u042D\u0445, \u0432\u043E\u0442 \u043F\u043E\u0447\u0435\u043C\u0443
+      \u0441\u0435\u0433\u043E\u0434\u043D\u044F \u043D\u0435 \u0443\u0441\u0442\u0440\u043E\u0438\u043B\u0438
+      \u043A\u0430\u043A\u043E\u0439-\u043D\u0438\u0431\u0443\u0434\u044C \u0432\u044B\u0445\u043E\u0434\u043D\u043E\u0439?
+      \n\u042F \u0431\u044B \u0434\u0430\u0436\u0435 \u0434\u0443\u0448\u0443 \u0410\u0440\u0445\u0430\u043D\u0443
+      \u043F\u0440\u043E\u0434\u0430\u043B, \u0447\u0442\u043E\u0431\u044B \u043C\u043D\u0435
+      \u0432\u044B\u0434\u0430\u043B\u0441\u044F \u043B\u0438\u0448\u043D\u0438\u0439
+      \u0440\u0430\u0437\u043E\u043A \u043E\u0442\u0434\u043E\u0445\u043D\u0443\u0442\u044C!"
+    backgroundSpr: {fileID: 21300000, guid: 2ea7b5cf1862dea42b241699907add7b, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -862
+      y: -188
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 347e3c096bfc06f46a363517a0243657, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: be61ff0b-4717-4383-811d-51c7f8f24cb2
+    characterSpr: {fileID: 21300000, guid: bdb8afd6c74ec5f409ec8f3603d58977, type: 3}
+    characterName: player
+    dialogueText: "\u041D\u0443 \u0430 \u0432\u043E\u0442 \u0438 \u0442\u044B, \"\u043F\u0440\u0435\u043A\u0440\u0430\u0441\u043D\u043E\u0435\"
+      \u043C\u0435\u0441\u0442\u043E, \u043A\u043E\u0442\u043E\u0440\u043E\u0435
+      \u043C\u0443\u0447\u0430\u0435\u0442 \u043C\u0435\u043D\u044F \u043F\u0440\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438
+      \u043A\u0430\u0436\u0434\u044B\u0439 \u0434\u0435\u043D\u044C."
+    backgroundSpr: {fileID: 21300000, guid: 2ea7b5cf1862dea42b241699907add7b, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -757
+      y: 142
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: eb9a0b182dd45b14eb573f157d42567c, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 90b5c4e7-cdf9-43ed-aff9-20134a6653aa
+    characterSpr: {fileID: 21300000, guid: b2270a70b34a40742b9cc94c2cd0fdcd, type: 3}
+    characterName: player
+    dialogueText: "\u0412\u043F\u0440\u043E\u0447\u0435\u043C, \u044D\u0442\u0430
+      \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044F \u043D\u0435 \u0441\u0442\u0440\u0430\u0448\u043D\u0435\u0435
+      \u0441\u043B\u043E\u0432 \u0414\u0440\u0430\u043A\u043E \u043E \u0440\u0430\u0431\u043E\u0442\u0435."
+    backgroundSpr: {fileID: 21300000, guid: 2ea7b5cf1862dea42b241699907add7b, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -1547
+      y: -509
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 13b4e97843f652848900d22e90e1bbe8, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 8ef494cf-4630-4b60-a923-0bb4b471fff9
+    characterSpr: {fileID: 21300000, guid: b2270a70b34a40742b9cc94c2cd0fdcd, type: 3}
+    characterName: player
+    dialogueText: "\u041E\u043D \u0432\u0441\u0435\u0433\u0434\u0430 \u0447\u0435\u0440\u0435\u0441\u0447\u0443\u0440
+      \u043E\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043D\u043D\u043E \u043A
+      \u043D\u0435\u0439 \u043E\u0442\u043D\u043E\u0441\u0438\u0442\u0441\u044F,
+      \u043D\u0435 \u0442\u043E \u0447\u0442\u043E \u044F.."
+    backgroundSpr: {fileID: 21300000, guid: 2ea7b5cf1862dea42b241699907add7b, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -988
+      y: -514
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 0e2e2ac3374583549b98e967b23d4a32, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 538d4c12-45b5-41ed-8498-dd3c7f8db9d5
+    characterSpr: {fileID: 21300000, guid: b2270a70b34a40742b9cc94c2cd0fdcd, type: 3}
+    characterName: player
+    dialogueText: "\u0410 \u0441\u0435\u0433\u043E\u0434\u043D\u044F \u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E
+      \u043F\u0443\u0441\u0442\u043D\u044B\u043D\u043D\u043E. \n\u0418 \u0434\u0430\u0436\u0435
+      \u0442\u043E\u0440\u0433\u043E\u0432\u0446\u0435\u0432 \u043D\u0435 \u0442\u0430\u043A
+      \u043C\u043D\u043E\u0433\u043E."
+    backgroundSpr: {fileID: 21300000, guid: 2ea7b5cf1862dea42b241699907add7b, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -2222
+      y: -231
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 191d2afac60b01442b6db16885734983, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: d5c5a390-a279-4f69-92d1-9a38985b31e5
+    characterSpr: {fileID: 21300000, guid: b2270a70b34a40742b9cc94c2cd0fdcd, type: 3}
+    characterName: player
+    dialogueText: "\u0412\u043F\u0440\u043E\u0447\u0435\u043C, \u0442\u0430\u043A
+      \u0434\u0430\u0436\u0435 \u043B\u0443\u0447\u0448\u0435. \n\u041C\u0435\u043D\u044C\u0448\u0435
+      \u0440\u0430\u0437\u0434\u0440\u0430\u0436\u0430\u044E\u0449\u0438\u0445 \u0444\u0430\u043A\u0442\u043E\u0440\u043E\u0432."
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -335
+      y: -186
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 48cd2ee9b6f2fd444874cb6adcaeb03b, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 4895e1af-34fb-4385-9722-9f7524d7e089
+    characterSpr: {fileID: 0}
+    characterName: player
+    dialogueText: "\u0425\u043C.. \u0417\u0434\u0435\u0441\u044C \u0442\u043E\u0436\u0435
+      \u043F\u043E\u0447\u0435\u043C\u0443-\u0442\u043E \u043F\u043E\u0434\u043E\u0437\u0440\u0438\u0442\u0435\u043B\u044C\u043D\u043E
+      \u0442\u0438\u0445\u043E. \n\u041E\u0431\u044B\u0447\u043D\u043E \u043D\u0430
+      \u0432\u0441\u0451 \u0437\u0434\u0430\u043D\u0438\u0435 \u0440\u0430\u0437\u043D\u043E\u0441\u044F\u0442\u0441\u044F
+      \u043A\u0440\u0438\u043A\u0438 \u0410\u0440-\u0421\u0430\u0434\u043E, \u041A\u0430\u043F\u0438\u0442\u0430\u043D\u0430
+      \u0438 \u041F\u0440\u0438\u043D\u0446\u0435\u0441\u0441\u044B, \u0430 \u0442\u0435\u043F\u0435\u0440\u044C
+      \u0437\u0434\u0435\u0441\u044C \u043F\u043E\u043B\u043D\u0430\u044F \u0442\u0438\u0448\u0438\u043D\u0430."
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: -425
+      y: -515
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 77b1895bb8f52ba408f48720b3f22007, type: 3}
+    backgroundMusic: {fileID: 8300000, guid: 053c6f706e2d3a04fbf375bffc7a287a, type: 3}
+  - guid: 498dfebe-aaf8-417d-855b-a39973af4e58
+    characterSpr: {fileID: 21300000, guid: bdb8afd6c74ec5f409ec8f3603d58977, type: 3}
+    characterName: player
+    dialogueText: "\u0421\u0433\u043B\u0430\u0437\u0438\u043B."
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 90
+      y: -516
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 04559c1c1ab71ff479770e17aa43fe81, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 386c823c-65b8-45ae-a25e-53732521ee53
+    characterSpr: {fileID: 0}
+    characterName: 
+    dialogueText: "*\u043F\u0430\u0434\u0435\u043D\u0438\u0435 \u0441 \u043B\u0435\u0441\u0442\u043D\u0438\u0446\u044B*"
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 274
+      y: -187
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 8b37e7a7be020744d826b848f2ab5762, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 352cc939-6aac-4dd2-b106-3e5d99d2792f
+    characterSpr: {fileID: 21300000, guid: 229b8c25fe296074e961d227a0e4a28d, type: 3}
+    characterName: "\u0410\u0440-\u0421\u0430\u0434\u043E"
+    dialogueText: "\u041E\u0439, \u043F\u0440\u0438\u0432\u0435\u0442 \u043C\u043E\u0439
+      \u043C\u0438\u043B\u044B\u0439 \u0434\u0440\u0443\u0433! \n\u041F\u0440\u043E\u0441\u0442\u0438
+      \u0437\u0430 \u043F\u0440\u043E\u0438\u0437\u043E\u0448\u0435\u0434\u0448\u0435\u0435!
+      \u0414\u0430\u0432\u0430\u0439 \u0440\u0443\u043A\u0443.."
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 341
+      y: 139
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: ee07d89de4668c24693c7780f802ae07, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 5e57104c-bcc0-4aff-bf0a-4bc1977c4e52
+    characterSpr: {fileID: 21300000, guid: b2270a70b34a40742b9cc94c2cd0fdcd, type: 3}
+    characterName: player
+    dialogueText: "\u041D\u0435\u043E\u0431\u044B\u0447\u043D\u043E\u0435 \u043F\u043E\u044F\u0432\u043B\u0435\u043D\u0438\u0435,
+      \u043D\u043E \u043E\u043D\u043E \u043D\u0435 \u043F\u0435\u0440\u0435\u043F\u043B\u044E\u043D\u0435\u0442
+      \u0442\u0432\u043E\u0435\u0433\u043E \u043F\u0440\u0438\u0445\u043E\u0434\u0430
+      \u0432 \u043D\u0430\u0448\u0435 \u043F\u0435\u0440\u0432\u043E\u0435 \u0437\u043D\u0430\u043A\u043E\u043C\u0441\u0442\u0432\u043E.
+      \n\u0422\u0435\u0440\u044F\u0435\u0448\u044C \u0445\u0432\u0430\u0442\u043A\u0443,
+      \u0434\u0440\u0443\u0433 \u043C\u043E\u0439!"
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2539
+      y: -490
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: b312a4303c688044ca3d6d63a976eb0b, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 7bd94664-1cf4-4eeb-89d3-99fc1a855be6
+    characterSpr: {fileID: 21300000, guid: 8f4d981738c7a25419ebad9e80038e49, type: 3}
+    characterName: "*\u0433\u043E\u043B\u043E\u0441 \u0441\u0432\u0435\u0440\u0445\u0443*"
+    dialogueText: "\u0418\u0434\u0438 \u0441\u044E\u0434\u0430, \u043C\u0435\u043B\u043A\u0438\u0439
+      \u043A\u043B\u043E\u0443\u043D!\n\u042F \u0442\u0435\u0431\u0435 \u0435\u0449\u0451
+      \u043F\u043E\u043A\u0430\u0436\u0443, \u043A\u0430\u043A \u0448\u0443\u0442\u043A\u0438
+      \u0448\u0443\u0442\u0438\u0442\u044C!!!"
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5689
+      y: 149
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 94ef99fc676726d45a2d18fe929847f0, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 159f42a6-0b91-4c05-8483-2c11b85019c4
+    characterSpr: {fileID: 21300000, guid: 72df8d702be48c04e896dc0a207acacd, type: 3}
+    characterName: "\u0410\u0440-\u0421\u0430\u0434\u043E"
+    dialogueText: "\u041D\u0443, \u0442\u0435\u043F\u0435\u0440\u044C, \u044F \u0434\u0443\u043C\u0430\u044E,
+      \u0442\u044B \u0438 \u0441\u0430\u043C \u0432\u0441\u0435 \u043F\u043E\u043D\u044F\u043B."
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6044
+      y: -179
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: a7e697e1ee7a5e643875d2cf1817c86e, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 56ec5f19-a2e5-41d1-ad9d-6b50f49a24a2
+    characterSpr: {fileID: 21300000, guid: b2270a70b34a40742b9cc94c2cd0fdcd, type: 3}
+    characterName: player
+    dialogueText: "\u0410 \u043A\u0430\u043A...?"
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 5443
+      y: -173
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: e137709c5994d5b4b9c219285109fa99, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 7d95e455-5428-4716-b6b4-57c8b65b5e78
+    characterSpr: {fileID: 21300000, guid: 72df8d702be48c04e896dc0a207acacd, type: 3}
+    characterName: "\u0410\u0440-\u0421\u0430\u0434\u043E"
+    dialogueText: "\u041D\u0430\u043F\u0440\u0438\u043C\u0435\u0440, \u0441\u0435\u0439\u0447\u0430\u0441.
+      \u0417\u0430 \u043C\u043D\u043E\u0439 \u0433\u043E\u043D\u0438\u0442\u0441\u044F
+      \u041A\u0430\u043F\u0438\u0442\u0430\u043D \u0414\u0432\u043E\u0440\u0446\u043E\u0432\u043E\u0439
+      \u0430\u0440\u043C\u0438\u0438."
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4852
+      y: 230
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: f1ce3c03a71d6934fbb8c27ee97e868f, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 78187ead-2587-49f3-bc0e-963804d3903a
+    characterSpr: {fileID: 21300000, guid: 6d51244fd031e504a80ba4a51b36894c, type: 3}
+    characterName: "\u0410\u0440-\u0421\u0430\u0434\u043E"
+    dialogueText: "\u0427\u0435\u0441\u0442\u043D\u043E, \u044F \u043D\u0435 \u0437\u043D\u0430\u044E.
+      \n\u041F\u043E\u0440\u043E\u0439 \u043C\u043D\u0435 \u043A\u0430\u0436\u0435\u0442\u0441\u044F,
+      \u0447\u0442\u043E \u0443 \u043C\u0435\u043D\u044F \u0442\u0430\u043B\u0430\u043D\u0442
+      \u0432\u043B\u0438\u043F\u0430\u0442\u044C \u0432\u043E \u0432\u0441\u044F\u043A\u0438\u0435
+      \u043A\u043E\u043C\u0438\u0447\u043D\u044B\u0435 \u043D\u0435\u043F\u0440\u0438\u044F\u0442\u043D\u043E\u0441\u0442\u0438."
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 4265
+      y: 230
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 9170dadf419801442827aa0aafc922d3, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 96c84f8d-96fc-47c8-b047-b59ca782e2e2
+    characterSpr: {fileID: 21300000, guid: b2270a70b34a40742b9cc94c2cd0fdcd, type: 3}
+    characterName: player
+    dialogueText: "\u0412\u043E\u0442 \u0441\u043A\u0430\u0436\u0438, \u043F\u043E\u0447\u0435\u043C\u0443
+      \u0442\u0435\u0431\u0435 \u043D\u0430 \u043C\u0435\u0441\u0442\u0435 \u043D\u0435
+      \u0441\u0438\u0434\u0438\u0442\u0441\u044F?"
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3682
+      y: 231
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 3553d711a6c70c44e828859c33c2f975, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: da9b3966-16ce-402f-80e1-3eb336efee24
+    characterSpr: {fileID: 21300000, guid: b2270a70b34a40742b9cc94c2cd0fdcd, type: 3}
+    characterName: player
+    dialogueText: "\u0422\u044B \u0441\u0432\u0430\u043B\u0438\u0432\u0430\u0435\u0448\u044C\u0441\u044F
+      \u043C\u043D\u0435 \u043D\u0430 \u0433\u043E\u043B\u043E\u0432\u0443 \u0434\u0430\u0436\u0435
+      \u043A\u043E\u0433\u0434\u0430 \u0432\u0441\u0451 \u0441\u043F\u043E\u043A\u043E\u0439\u043D\u043E."
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 2534
+      y: 232
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 036f310ff155f034b85d42364bd8180f, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 8c080a4b-d191-42f1-bf91-bf142ad35d38
+    characterSpr: {fileID: 21300000, guid: 36ed0d1aa362d264eab6e071ed752d5b, type: 3}
+    characterName: "\u0410\u0440-\u0421\u0430\u0434\u043E"
+    dialogueText: "\u0414\u0430, \u0438 \u0441\u0435\u0439\u0447\u0430\u0441 \u0438\u043C\u0435\u043D\u043D\u043E
+      \u0442\u043E\u0442 \u043C\u043E\u043C\u0435\u043D\u0442, \u043A\u043E\u0433\u0434\u0430
+      \u0432\u0441\u0451 \u0441\u043F\u043E\u043A\u043E\u0439\u043D\u043E."
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3099
+      y: 231
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 3f48318079d8da84b81e28693652400e, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: ffcdd3ea-644f-4857-a3a7-260bca6af443
+    characterSpr: {fileID: 21300000, guid: 36ed0d1aa362d264eab6e071ed752d5b, type: 3}
+    characterName: "\u0410\u0440-\u0421\u0430\u0434\u043E"
+    dialogueText: "\u041D\u0443 \u0437\u043D\u0430\u0435\u0448\u044C... \u0442\u044F\u0436\u0435\u043B\u043E
+      \u043F\u0440\u0438\u0434\u0443\u043C\u0430\u0442\u044C \u0447\u0442\u043E-\u0442\u043E
+      \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043D\u043E\u0435, \u043A\u043E\u0433\u0434\u0430
+      \u0437\u0430 \u0442\u043E\u0431\u043E\u0439 \u0431\u0443\u043A\u0432\u0430\u043B\u044C\u043D\u043E
+      \u0433\u043E\u043D\u0438\u0442\u0441\u044F \u041A\u0430\u043F\u0438\u0442\u0430\u043D
+      \u0414\u0432\u043E\u0440\u0446\u043E\u0432\u043E\u0439 \u0430\u0440\u043C\u0438\u0438."
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 3202
+      y: -492
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: dfc52306c61a57e469b9b194acaa9b07, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: ce22d0d6-136c-4bff-9e9e-5f95e6f0e08b
+    characterSpr: {fileID: 21300000, guid: b2270a70b34a40742b9cc94c2cd0fdcd, type: 3}
+    characterName: player
+    dialogueText: "\u0423\u043C\u0435\u0435\u0448\u044C \u0436\u0435 \u0442\u044B
+      \u0432\u043B\u044F\u043F\u044B\u0432\u0430\u0442\u044C\u0441\u044F \u0432\u043E
+      \u0432\u0441\u044F\u043A\u0438\u0435 \u043D\u0435\u043F\u0440\u0438\u044F\u0442\u043D\u043E\u0441\u0442\u0438.."
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6290
+      y: 152
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 7292b12e92409dd4fab855f264100548, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 25eb095e-032a-4f8f-8911-f1a05100fe5c
+    characterSpr: {fileID: 21300000, guid: 36ed0d1aa362d264eab6e071ed752d5b, type: 3}
+    characterName: "\u0410\u0440-\u0421\u0430\u0434\u043E"
+    dialogueText: "\u0410 \u0442\u043E! \u0413\u043E\u0432\u043E\u0440\u044E \u0436\u0435,
+      \u0443 \u043C\u0435\u043D\u044F \u0442\u0430\u043B\u0430\u043D\u0442."
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 6920
+      y: -24
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: db8e8e00f01be0f43b8e8192b9216b81, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: e01362a5-2dcf-4fe7-a18a-35efd5aada25
+    characterSpr: {fileID: 21300000, guid: 48abe28faa66f314484d0ac810057a0e, type: 3}
+    characterName: player
+    dialogueText: 
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 2
+    choiceOptions:
+    - "\u0421\u043F\u043B\u043E\u0448\u043D\u044B\u0435 \u043E\u0442\u043C\u0430\u0437\u043A\u0438..."
+    - "\u0414\u0430, \u0434\u0430..."
+    nodePosition:
+      serializedVersion: 2
+      x: 7539
+      y: -57
+      width: 499
+      height: 367
+    soundEffect: {fileID: 0}
+    backgroundMusic: {fileID: 0}
+  - guid: 8d7a6fd9-8fb4-45fe-bd7a-00288cd8319a
+    characterSpr: {fileID: 21300000, guid: b2270a70b34a40742b9cc94c2cd0fdcd, type: 3}
+    characterName: player
+    dialogueText: "\u0422\u0443\u0442 \u043D\u0435\u0447\u0435\u043C \u0433\u043E\u0440\u0434\u0438\u0442\u044C\u0441\u044F."
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8198
+      y: -367
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: a27d51549423ef64bbe03b58cba23911, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 0b47709a-387b-4458-8098-db15e2ba2a9c
+    characterSpr: {fileID: 21300000, guid: 6d51244fd031e504a80ba4a51b36894c, type: 3}
+    characterName: "\u0410\u0440-\u0421\u0430\u0434\u043E"
+    dialogueText: "\u041E\u0431\u044B\u0447\u043D\u043E \u0442\u044B \u043D\u0435
+      \u0442\u0430\u043A \u0437\u043E\u043B..."
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8811
+      y: -367
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: c00a6f09b950f8b46a8da9dce3523dd2, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: ee91d97c-c64b-42c8-96dc-069326de5ed7
+    characterSpr: {fileID: 21300000, guid: 48abe28faa66f314484d0ac810057a0e, type: 3}
+    characterName: "\u0410\u0440-\u0421\u0430\u0434\u043E"
+    dialogueText: "\u042F, \u043A\u043E\u043D\u0435\u0447\u043D\u043E, \u043F\u043E\u0441\u0442\u0430\u0440\u0430\u044E\u0441\u044C,
+      \u043D\u043E \u043D\u0438\u0447\u0435\u0433\u043E \u043D\u0435 \u043E\u0431\u0435\u0449\u0430\u044E)"
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 9456
+      y: 435
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 9fdd7ba40da6763458af1ffa3a13768d, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 8f96c3aa-1f24-4e6a-afaa-c5d53222d4aa
+    characterSpr: {fileID: 21300000, guid: 72df8d702be48c04e896dc0a207acacd, type: 3}
+    characterName: "\u0410\u0440-\u0421\u0430\u0434\u043E"
+    dialogueText: "\u041B\u0430\u0434\u043D\u043E, \u0440\u0430\u0437\u0433\u043E\u0432\u043E\u0440\u044B
+      \u0440\u0430\u0437\u0433\u043E\u0432\u043E\u0440\u0430\u043C\u0438, \u0430
+      \u043C\u043D\u0435 \u043F\u043E\u0440\u0430 \u0443\u043D\u043E\u0441\u0438\u0442\u044C
+      \u043D\u043E\u0433\u0438."
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 10108
+      y: -41
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 9654d8086a5ef244c94805317cbf861f, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: c53eaab1-195e-4c8e-b985-c85b9d6ad02a
+    characterSpr: {fileID: 21300000, guid: b2270a70b34a40742b9cc94c2cd0fdcd, type: 3}
+    characterName: player
+    dialogueText: "\u041F\u043E\u0436\u0430\u043B\u0443\u0439\u0441\u0442\u0430,
+      \u0431\u0443\u0434\u044C \u043E\u0441\u0442\u043E\u0440\u043E\u0436\u043D\u0435\u0435
+      \u0438 \u043F\u0440\u0435\u0434\u0443\u0441\u043C\u043E\u0442\u0440\u0438\u0442\u0435\u043B\u044C\u043D\u0435\u0435
+      \u0432 \u0441\u043B\u0435\u0434\u0443\u044E\u0449\u0438\u0439 \u0440\u0430\u0437."
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8796
+      y: 435
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 7fd606951bee8e243afac6394b33e61a, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 6c2178fe-3017-421d-a995-b39f48dd2b85
+    characterSpr: {fileID: 21300000, guid: b2270a70b34a40742b9cc94c2cd0fdcd, type: 3}
+    characterName: player
+    dialogueText: "\u0410\u0445\u0430\u0445, \u043D\u0443 \u0434\u0430, \u043D\u0443
+      \u0434\u0430.."
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 8189
+      y: 434
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 3c8751af9009ea5428d54f859491bcc0, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: eb190c14-eee6-4118-b91f-f13130e2e83e
+    characterSpr: {fileID: 21300000, guid: 6d51244fd031e504a80ba4a51b36894c, type: 3}
+    characterName: "\u0410\u0440-\u0421\u0430\u0434\u043E"
+    dialogueText: "\u0414\u043E \u0441\u043A\u043E\u0440\u043E\u0439 \u0432\u0441\u0442\u0440\u0435\u0447\u0438!"
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 10437
+      y: 294
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: 680bffbbf8954b7439a59ca6d6ba00e3, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: 8f18dcc0-ea8e-482f-ba51-abd957a4521b
+    characterSpr: {fileID: 21300000, guid: b2270a70b34a40742b9cc94c2cd0fdcd, type: 3}
+    characterName: player
+    dialogueText: "\u0411\u0435\u0440\u0435\u0433\u0438 \u0441\u0435\u0431\u044F!"
+    backgroundSpr: {fileID: 21300000, guid: 5f7c3a577f6555845ae20187dcbfb5d7, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 10778
+      y: -49
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: d29e167b985b6f94f9a0ea943eea0235, type: 3}
+    backgroundMusic: {fileID: 0}
+  - guid: d826831d-708b-490b-a821-3a748b7c0bef
+    characterSpr: {fileID: 0}
+    characterName: player
+    dialogueText: "\u041D\u0430\u0434\u0435\u044E\u0441\u044C, \u0447\u0442\u043E
+      \u0435\u0433\u043E \u0436\u0438\u0437\u043D\u044C \u0437\u0430\u043A\u043E\u043D\u0447\u0438\u0442\u0441\u044F
+      \u043D\u0435 \u0441\u0430\u043C\u044B\u043C \u0433\u043B\u0443\u043F\u044B\u043C
+      \u043E\u0431\u0440\u0430\u0437\u043E\u043C..."
+    backgroundSpr: {fileID: 21300000, guid: 7e4cd13cdef7bf2469d31b14b7d7c0ef, type: 3}
+    startNode: 0
+    endNode: 0
+    choices: 1
+    choiceOptions:
+    - 
+    nodePosition:
+      serializedVersion: 2
+      x: 11184
+      y: 295
+      width: 499
+      height: 305
+    soundEffect: {fileID: 8300000, guid: dec849790ae67e7489585f157b1feee6, type: 3}
+    backgroundMusic: {fileID: 0}
